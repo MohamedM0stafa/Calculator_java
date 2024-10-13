@@ -639,12 +639,24 @@ public class calc extends javax.swing.JFrame {
     }
     
     public static double factorial(double n)
-    {
-        if (n == 0)
-            return 1;
+    { 
+        if(n >= 0)
+        {
+            if (n == 0)
+                return 1;
+            else
+            {
+                return n*factorial(n-1);
+            }
+        }
         else
         {
-            return n*factorial(n-1);
+             if (n == 0)
+                return -1;
+            else
+            {
+                return n*factorial(n+1);
+            }
         }
     }
     

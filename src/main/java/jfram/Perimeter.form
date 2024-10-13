@@ -58,8 +58,8 @@
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="1" attributes="0">
-                      <EmptySpace pref="196" max="32767" attributes="0"/>
-                      <Component id="jLabel3" min="-2" pref="186" max="-2" attributes="0"/>
+                      <EmptySpace pref="145" max="32767" attributes="0"/>
+                      <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
               </Group>
@@ -78,9 +78,9 @@
             <Component class="javax.swing.JLabel" name="jLabel3">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Segoe UI" size="14" style="0"/>
+                  <Font name="Segoe UI" size="18" style="1"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="&#x627;&#x644;&#x645;&#x633;&#x627;&#x62d;&#x647; = &#x627;&#x644;&#x637;&#x648;&#x644; &#xd7; &#x627;&#x644;&#x639;&#x631;&#x636;"/>
+                <Property name="text" type="java.lang.String" value="&#x627;&#x644;&#x645;&#x62d;&#x64a;&#x637; = (&#x627;&#x644;&#x637;&#x648;&#x644; + &#x627;&#x644;&#x639;&#x631;&#x636;) *2"/>
               </Properties>
             </Component>
           </SubComponents>
@@ -98,11 +98,8 @@
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace pref="172" max="32767" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jLabel4" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel5" alignment="1" min="-2" max="-2" attributes="0"/>
-                      </Group>
+                      <EmptySpace pref="190" max="32767" attributes="0"/>
+                      <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
               </Group>
@@ -110,24 +107,20 @@
             <DimensionLayout dim="1">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
                       <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                      <EmptySpace pref="48" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
           </Layout>
           <SubComponents>
-            <Component class="javax.swing.JLabel" name="jLabel4">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="&#x627;&#x644;&#x645;&#x633;&#x627;&#x62d;&#x647; = 1/2 &#x62d;&#x627;&#x635;&#x644; &#x636;&#x631;&#x628; &#x637;&#x648;&#x644;&#x627; &#x642;&#x637;&#x631;&#x64a;&#x647;"/>
-              </Properties>
-            </Component>
             <Component class="javax.swing.JLabel" name="jLabel5">
               <Properties>
-                <Property name="text" type="java.lang.String" value="&#x627;&#x644;&#x645;&#x633;&#x627;&#x62d;&#x647; = &#x637;&#x648;&#x644; &#x627;&#x644;&#x636;&#x644;&#x639; &#xd7; &#x627;&#x644;&#x627;&#x631;&#x62a;&#x641;&#x627;&#x639; &#x627;&#x644;&#x646;&#x627;&#x638;&#x631; &#x644;&#x647;"/>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="18" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x627;&#x644;&#x645;&#x62d;&#x64a;&#x637; = &#x637;&#x648;&#x644; &#x627;&#x644;&#x636;&#x644;&#x639; * 4"/>
               </Properties>
             </Component>
           </SubComponents>
@@ -145,7 +138,7 @@
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="1" attributes="0">
-                      <EmptySpace pref="215" max="32767" attributes="0"/>
+                      <EmptySpace pref="145" max="32767" attributes="0"/>
                       <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
@@ -164,156 +157,10 @@
           <SubComponents>
             <Component class="javax.swing.JLabel" name="jLabel6">
               <Properties>
-                <Property name="text" type="java.lang.String" value="&#x627;&#x644;&#x645;&#x633;&#x627;&#x62d;&#x647; = &#x637;&#x648;&#x644; &#x627;&#x644;&#x642;&#x627;&#x639;&#x62f;&#x647; * &#x627;&#x644;&#x627;&#x631;&#x62a;&#x641;&#x627;&#x639;"/>
-              </Properties>
-            </Component>
-          </SubComponents>
-        </Container>
-        <Container class="javax.swing.JPanel" name="jPanel5">
-          <Constraints>
-            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-              <JTabbedPaneConstraints tabName="&#x627;&#x644;&#x645;&#x643;&#x639;&#x628;">
-                <Property name="tabTitle" type="java.lang.String" value="&#x627;&#x644;&#x645;&#x643;&#x639;&#x628;"/>
-              </JTabbedPaneConstraints>
-            </Constraint>
-          </Constraints>
-
-          <Layout>
-            <DimensionLayout dim="0">
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace pref="247" max="32767" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jLabel9" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel8" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel7" alignment="1" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                  </Group>
-              </Group>
-            </DimensionLayout>
-            <DimensionLayout dim="1">
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="1" attributes="0">
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="32767" attributes="0"/>
-                      <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                  </Group>
-              </Group>
-            </DimensionLayout>
-          </Layout>
-          <SubComponents>
-            <Component class="javax.swing.JLabel" name="jLabel7">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="&#x627;&#x644;&#x645;&#x633;&#x627;&#x62d;&#x647; &#x627;&#x644;&#x643;&#x644;&#x64a;&#x647; = 6 &#x644;^2"/>
-              </Properties>
-            </Component>
-            <Component class="javax.swing.JLabel" name="jLabel8">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="&#x627;&#x644;&#x645;&#x633;&#x627;&#x62d;&#x647; &#x627;&#x644;&#x62c;&#x627;&#x646;&#x628;&#x64a;&#x647; = 4*&#x644;^2"/>
-              </Properties>
-            </Component>
-            <Component class="javax.swing.JLabel" name="jLabel9">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="&#x645;&#x633;&#x627;&#x62d;&#x647; &#x627;&#x644;&#x648;&#x62c;&#x647; &#x627;&#x644;&#x648;&#x627;&#x62d;&#x62f; = &#x644;^2"/>
-              </Properties>
-            </Component>
-          </SubComponents>
-        </Container>
-        <Container class="javax.swing.JPanel" name="jPanel6">
-          <Constraints>
-            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-              <JTabbedPaneConstraints tabName="&#x645;&#x62a;&#x648;&#x627;&#x632;&#x64a; &#x627;&#x644;&#x645;&#x633;&#x62a;&#x637;&#x64a;&#x644;&#x627;&#x62a;">
-                <Property name="tabTitle" type="java.lang.String" value="&#x645;&#x62a;&#x648;&#x627;&#x632;&#x64a; &#x627;&#x644;&#x645;&#x633;&#x62a;&#x637;&#x64a;&#x644;&#x627;&#x62a;"/>
-              </JTabbedPaneConstraints>
-            </Constraint>
-          </Constraints>
-
-          <Layout>
-            <DimensionLayout dim="0">
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace pref="108" max="32767" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jLabel10" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel11" alignment="1" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                  </Group>
-              </Group>
-            </DimensionLayout>
-            <DimensionLayout dim="1">
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                      <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
-                  </Group>
-              </Group>
-            </DimensionLayout>
-          </Layout>
-          <SubComponents>
-            <Component class="javax.swing.JLabel" name="jLabel10">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="&#x627;&#x644;&#x645;&#x633;&#x627;&#x62d;&#x647; &#x627;&#x644;&#x643;&#x644;&#x64a;&#x647; = &#x627;&#x644;&#x645;&#x633;&#x627;&#x62d;&#x647; &#x627;&#x644;&#x62d;&#x627;&#x646;&#x628;&#x64a;&#x647; + 2 * &#x645;&#x633;&#x627;&#x62d;&#x647; &#x627;&#x644;&#x642;&#x627;&#x639;&#x62f;&#x647;"/>
-              </Properties>
-            </Component>
-            <Component class="javax.swing.JLabel" name="jLabel11">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="&#x627;&#x644;&#x645;&#x633;&#x627;&#x62d;&#x647; &#x627;&#x644;&#x62c;&#x627;&#x646;&#x628;&#x64a;&#x647; = &#x645;&#x62d;&#x64a;&#x637; &#x627;&#x644;&#x642;&#x627;&#x639;&#x62f;&#x647; * &#x627;&#x644;&#x627;&#x631;&#x62a;&#x641;&#x627;&#x639;"/>
-              </Properties>
-            </Component>
-          </SubComponents>
-        </Container>
-        <Container class="javax.swing.JPanel" name="jPanel7">
-          <Constraints>
-            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-              <JTabbedPaneConstraints tabName="&#x627;&#x644;&#x627;&#x633;&#x637;&#x648;&#x627;&#x646;&#x647; &#x627;&#x644;&#x642;&#x627;&#x626;&#x645;&#x629;">
-                <Property name="tabTitle" type="java.lang.String" value="&#x627;&#x644;&#x627;&#x633;&#x637;&#x648;&#x627;&#x646;&#x647; &#x627;&#x644;&#x642;&#x627;&#x626;&#x645;&#x629;"/>
-              </JTabbedPaneConstraints>
-            </Constraint>
-          </Constraints>
-
-          <Layout>
-            <DimensionLayout dim="0">
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace pref="117" max="32767" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jLabel12" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel13" alignment="1" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                  </Group>
-              </Group>
-            </DimensionLayout>
-            <DimensionLayout dim="1">
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
-                      <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="32767" attributes="0"/>
-                  </Group>
-              </Group>
-            </DimensionLayout>
-          </Layout>
-          <SubComponents>
-            <Component class="javax.swing.JLabel" name="jLabel12">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="&#x627;&#x644;&#x645;&#x633;&#x627;&#x62d;&#x647; &#x627;&#x644;&#x62c;&#x627;&#x646;&#x628;&#x64a;&#x647; = 2&#x3c0; &#x646;&#x642; &#x639;"/>
-              </Properties>
-            </Component>
-            <Component class="javax.swing.JLabel" name="jLabel13">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="&#x627;&#x644;&#x645;&#x633;&#x627;&#x62d;&#x647; &#x627;&#x644;&#x643;&#x644;&#x64a;&#x647; = &#x627;&#x644;&#x645;&#x633;&#x627;&#x62d;&#x647; &#x627;&#x644;&#x62c;&#x627;&#x646;&#x628;&#x64a;&#x647;+ 2*&#x645;&#x633;&#x627;&#x62d;&#x629; &#x627;&#x644;&#x642;&#x627;&#x639;&#x62f;&#x629;"/>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="18" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x627;&#x644;&#x645;&#x62d;&#x64a;&#x637; = &#x645;&#x62c;&#x645;&#x648;&#x639; &#x627;&#x637;&#x648;&#x627;&#x644; &#x627;&#x636;&#x644;&#x627;&#x639;&#x647;"/>
               </Properties>
             </Component>
           </SubComponents>
@@ -331,7 +178,7 @@
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="1" attributes="0">
-                      <EmptySpace pref="119" max="32767" attributes="0"/>
+                      <EmptySpace pref="145" max="32767" attributes="0"/>
                       <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
@@ -350,7 +197,10 @@
           <SubComponents>
             <Component class="javax.swing.JLabel" name="jLabel14">
               <Properties>
-                <Property name="text" type="java.lang.String" value="&#x627;&#x644;&#x645;&#x633;&#x627;&#x62d;&#x647; = 1/2 &#x645;&#x62c;&#x645;&#x648;&#x639; &#x627;&#x644;&#x642;&#x627;&#x639;&#x62f;&#x62a;&#x64a;&#x646; &#x627;&#x644;&#x645;&#x62a;&#x648;&#x627;&#x632;&#x64a;&#x62a;&#x64a;&#x646; * &#x627;&#x644;&#x627;&#x631;&#x62a;&#x641;&#x627;&#x639;"/>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="18" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x627;&#x644;&#x645;&#x62d;&#x64a;&#x637; = &#x645;&#x62c;&#x645;&#x648;&#x639; &#x627;&#x637;&#x648;&#x627;&#x644; &#x627;&#x636;&#x644;&#x627;&#x639;&#x647;"/>
               </Properties>
             </Component>
           </SubComponents>
@@ -368,7 +218,7 @@
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="1" attributes="0">
-                      <EmptySpace pref="292" max="32767" attributes="0"/>
+                      <EmptySpace pref="263" max="32767" attributes="0"/>
                       <Component id="jLabel15" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
@@ -387,7 +237,10 @@
           <SubComponents>
             <Component class="javax.swing.JLabel" name="jLabel15">
               <Properties>
-                <Property name="text" type="java.lang.String" value="&#x627;&#x644;&#x645;&#x633;&#x627;&#x62d;&#x647; =&#x3c0; &#x646;&#x642;^2"/>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="18" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x627;&#x644;&#x645;&#x62d;&#x64a;&#x637; =2&#x3c0; &#x646;&#x642;"/>
               </Properties>
             </Component>
           </SubComponents>
@@ -405,7 +258,7 @@
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="1" attributes="0">
-                      <EmptySpace pref="281" max="32767" attributes="0"/>
+                      <EmptySpace pref="232" max="32767" attributes="0"/>
                       <Component id="jLabel16" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
@@ -424,44 +277,10 @@
           <SubComponents>
             <Component class="javax.swing.JLabel" name="jLabel16">
               <Properties>
-                <Property name="text" type="java.lang.String" value="&#x627;&#x644;&#x645;&#x633;&#x627;&#x62d;&#x647;=  1/2 &#x646;&#x642; &#x644;"/>
-              </Properties>
-            </Component>
-          </SubComponents>
-        </Container>
-        <Container class="javax.swing.JPanel" name="jPanel11">
-          <Constraints>
-            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-              <JTabbedPaneConstraints tabName="&#x627;&#x644;&#x643;&#x631;&#x629;">
-                <Property name="tabTitle" type="java.lang.String" value="&#x627;&#x644;&#x643;&#x631;&#x629;"/>
-              </JTabbedPaneConstraints>
-            </Constraint>
-          </Constraints>
-
-          <Layout>
-            <DimensionLayout dim="0">
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="1" attributes="0">
-                      <EmptySpace pref="296" max="32767" attributes="0"/>
-                      <Component id="jLabel17" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                  </Group>
-              </Group>
-            </DimensionLayout>
-            <DimensionLayout dim="1">
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="1" attributes="0">
-                      <EmptySpace pref="46" max="32767" attributes="0"/>
-                      <Component id="jLabel17" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                  </Group>
-              </Group>
-            </DimensionLayout>
-          </Layout>
-          <SubComponents>
-            <Component class="javax.swing.JLabel" name="jLabel17">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="&#x627;&#x644;&#x645;&#x633;&#x627;&#x62d;&#x647; = 4&#x3c0; &#x646;&#x642;"/>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="18" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x627;&#x644;&#x645;&#x62d;&#x64a;&#x637; =  2 &#x646;&#x642; + &#x644;"/>
               </Properties>
             </Component>
           </SubComponents>
@@ -479,7 +298,7 @@
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="1" attributes="0">
-                      <EmptySpace pref="200" max="32767" attributes="0"/>
+                      <EmptySpace pref="105" max="32767" attributes="0"/>
                       <Component id="jLabel18" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
@@ -490,7 +309,7 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="jLabel18" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace pref="46" max="32767" attributes="0"/>
+                      <EmptySpace pref="67" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -498,43 +317,10 @@
           <SubComponents>
             <Component class="javax.swing.JLabel" name="jLabel18">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="18" style="1"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="&#x627;&#x644;&#x645;&#x633;&#x627;&#x62d;&#x647; = 1/2 &#x637;&#x648;&#x644; &#x627;&#x644;&#x642;&#x627;&#x639;&#x62f;&#x647;*&#x627;&#x644;&#x627;&#x631;&#x62a;&#x641;&#x627;&#x639;"/>
-              </Properties>
-            </Component>
-          </SubComponents>
-        </Container>
-        <Container class="javax.swing.JPanel" name="jPanel13">
-          <Constraints>
-            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-              <JTabbedPaneConstraints tabName="&#x627;&#x644;&#x645;&#x62e;&#x631;&#x648;&#x637;">
-                <Property name="tabTitle" type="java.lang.String" value="&#x627;&#x644;&#x645;&#x62e;&#x631;&#x648;&#x637;"/>
-              </JTabbedPaneConstraints>
-            </Constraint>
-          </Constraints>
-
-          <Layout>
-            <DimensionLayout dim="0">
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="1" attributes="0">
-                      <EmptySpace min="0" pref="266" max="32767" attributes="0"/>
-                      <Component id="jLabel19" min="-2" max="-2" attributes="0"/>
-                  </Group>
-              </Group>
-            </DimensionLayout>
-            <DimensionLayout dim="1">
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="1" attributes="0">
-                      <EmptySpace pref="46" max="32767" attributes="0"/>
-                      <Component id="jLabel19" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                  </Group>
-              </Group>
-            </DimensionLayout>
-          </Layout>
-          <SubComponents>
-            <Component class="javax.swing.JLabel" name="jLabel19">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="&#x627;&#x644;&#x645;&#x633;&#x627;&#x62d;&#x647; = &#x3c0;&#x646;&#x642; (&#x644; + &#x646;&#x642;)"/>
               </Properties>
             </Component>
           </SubComponents>
@@ -552,34 +338,27 @@
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="1" attributes="0">
-                      <EmptySpace min="0" pref="235" max="32767" attributes="0"/>
-                      <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="jLabel2" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel1" alignment="1" min="-2" max="-2" attributes="0"/>
-                      </Group>
+                      <EmptySpace min="0" pref="188" max="32767" attributes="0"/>
+                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
                       <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="32767" attributes="0"/>
+                      <EmptySpace pref="39" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
           </Layout>
           <SubComponents>
-            <Component class="javax.swing.JLabel" name="jLabel1">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="&#x627;&#x644;&#x645;&#x633;&#x627;&#x62d;&#x647; = &#x637;&#x648;&#x644; &#x627;&#x644;&#x636;&#x644;&#x639; &#xd7;&#x646;&#x641;&#x633;&#x647;"/>
-              </Properties>
-            </Component>
             <Component class="javax.swing.JLabel" name="jLabel2">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="18" style="1"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="&#x627;&#x644;&#x645;&#x633;&#x627;&#x62d;&#x647; = &#x637;&#x648;&#x644; &#x627;&#x644;&#x636;&#x644;&#x639; &#xd7;4"/>
               </Properties>
             </Component>
