@@ -75,6 +75,11 @@ public class calc extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
+        addWindowListener(new java.awt.event.WindowAdapter() {
+            public void windowOpened(java.awt.event.WindowEvent evt) {
+                formWindowOpened(evt);
+            }
+        });
 
         jButton1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jButton1.setText("1");
@@ -911,6 +916,10 @@ public class calc extends javax.swing.JFrame {
     double number = Double.parseDouble(jTextField1.getText());
         jTextField1.setText(String.valueOf(Math.toRadians(number)));
     }//GEN-LAST:event_abs_btn1ActionPerformed
+
+    private void formWindowOpened(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowOpened
+     
+    }//GEN-LAST:event_formWindowOpened
 
     /**
      * @param args the command line arguments
